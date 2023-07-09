@@ -1,9 +1,9 @@
 # Text Evaluation Metrics (TEM)
-Evaluation metrics for text data: BLEU for machine translations and ROUGE for text summaries in pure Python
-This simple library provides implementations of the BLEU and ROUGE evaluation metrics, which are commonly used for evaluating the quality of machine translations and text summaries, respectively. The library does not depend on any specialized libraries and is designed to be easy to use and understand.
+Evaluation metrics for text data: BLEU is for machine translations and ROUGE is for text summaries.
+This library provides implementations of the BLEU and ROUGE evaluation metrics, which are commonly used for evaluating the quality of machine translations and text summaries.
 
-## Features
-* Easy-to-understand, pure Python implementation for educational purpose
+## Notes
+* This implementation is for educational purpose
 * Compute BLEU scores (bilingual evaluation understudy) for machine translations, which is a widely-used metric for evaluating the quality of machine-generated translations
 * Compute ROUGE-N scores (recall-oriented understudy for gisting evaluation) for text summaries, which is a common metric for evaluating the quality of summarization models
 * Tokenization and n-gram counting utilities. The package uses Python's split() method for tokenization.
